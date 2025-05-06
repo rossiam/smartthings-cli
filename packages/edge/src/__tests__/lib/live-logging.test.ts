@@ -151,7 +151,6 @@ describe('LiveLogClient', () => {
 			status: 200,
 			statusText: 'OK',
 			data: [
-				/* eslint-disable @typescript-eslint/naming-convention */
 				{
 					driver_id: driverId,
 					driver_name: 'Driver 0',
@@ -164,7 +163,6 @@ describe('LiveLogClient', () => {
 					archive_hash: null,
 					status: DriverInfoStatus.Installed,
 				},
-				/* eslint-enable @typescript-eslint/naming-convention */
 			],
 		} as AxiosResponse<DriverInfo[]>
 
